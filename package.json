@@ -1,0 +1,25 @@
+{
+  "name": "work-wise-book",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "prepare:book": "node scripts/prepare-book.mjs",
+    "dev": "npm run prepare:book && vitepress dev site",
+    "build": "npm run prepare:book && vitepress build site",
+    "preview": "vitepress preview site",
+    "test": "node --test tests/book.test.mjs",
+    "test:site": "node --test tests/site.test.mjs",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "vitepress": "1.6.4",
+    "vue": "^3.5.0"
+  },
+  "overrides": {
+    "vite": "6.4.3"
+  }
+}

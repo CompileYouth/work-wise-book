@@ -1,0 +1,42 @@
+:root {
+  --vp-c-brand-1: #258566;
+  --vp-c-brand-2: #309b79;
+  --vp-c-brand-3: #42b883;
+  --vp-c-brand-soft: rgba(66, 184, 131, 0.12);
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --vp-sidebar-width: 304px;
+}
+.dark {
+  --vp-c-brand-1: #66d6a5;
+  --vp-c-brand-2: #42b883;
+  --vp-c-brand-3: #309b79;
+}
+.book-caption {
+  margin: 0 0 18px;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+.vp-doc { font-size: 17px; }
+.vp-doc p, .vp-doc li { line-height: 1.95; }
+.vp-doc p { margin: 22px 0; }
+.vp-doc h1 { font-size: 30px; line-height: 1.5; letter-spacing: -0.025em; text-wrap: pretty; }
+.vp-doc h2 { margin-top: 52px; padding-top: 28px; line-height: 1.6; font-size: 23px; }
+.vp-doc h3 { line-height: 1.65; }
+.VPSidebarItem .text { line-height: 1.65; }
+.VPSidebarItem.level-1 .text { font-size: 13px; }
+.VPSidebarItem.level-1.is-active > .item { border-radius: 5px; background: var(--vp-c-brand-soft); }
+.VPSidebarItem.level-1 > .item { padding: 4px 8px; margin-left: -8px; }
+.VPDocFooter .pager-link .title { line-height: 1.7; }
+.VPNavBarTitle .title { font-weight: 650; letter-spacing: -0.02em; }
+@media (max-width: 767px) {
+  .vp-doc { font-size: 16px; }
+  .vp-doc h1 { font-size: 26px; }
+  .vp-doc h2 { font-size: 21px; margin-top: 40px; }
+  .book-caption { font-size: 12px; letter-spacing: 0; }
+}
+@media print {
+  .VPNav, .VPSidebar, .VPLocalNav, .aside, .VPDocFooter { display: none !important; }
+  .VPContent, .VPDoc { padding: 0 !important; margin: 0 !important; }
+  .vp-doc { font-size: 11pt; }
+}
