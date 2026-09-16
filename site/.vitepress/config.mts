@@ -5,8 +5,8 @@ import sidebar from './book.json'
 const base = '/work-wise-book/'
 
 export default defineConfig({
-  title: 'Workwise · 学会工作',
-  description: '从学生到职业人的前三年。看懂职场，把事情做成，与人合作，管理自己，持续成长。',
+  title: '专业之外：从学生到职业人的 21 堂成长课',
+  description: '《专业之外：从学生到职业人的 21 堂成长课》，面向工作 0—5 年的职场人。看懂职场，把事做成，与人合作，管理自己，持续成长。',
   lang: 'zh-CN',
   base,
   srcDir: './content',
@@ -20,7 +20,7 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: { src: '/favicon.svg', alt: '' },
-    siteTitle: 'Workwise',
+    siteTitle: '专业之外',
     nav: [{ text: '从头阅读', link: '/' }],
     sidebar,
     outline: { level: [2, 3], label: '本章目录' },

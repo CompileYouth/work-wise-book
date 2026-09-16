@@ -1,8 +1,8 @@
-# Workwise · 学会工作
+# 专业之外：从学生到职业人的 21 堂成长课
 
-从学生到职业人的前三年。全书围绕看懂职场、把事情做成、与人合作、管理自己和持续成长展开。
+面向工作 0—5 年的职场人。全书围绕看懂职场、把事做成、与人合作、管理自己和持续成长展开。
 
-**在线阅读：[Workwise 阅读网站](https://compileyouth.github.io/work-wise-book/)**
+**在线阅读：[《专业之外》阅读网站](https://compileyouth.github.io/work-wise-book/)**
 
 ## 内容与网站
 
