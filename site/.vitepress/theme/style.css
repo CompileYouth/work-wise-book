@@ -27,9 +27,33 @@
 .VPSidebarItem.level-1 .text { font-size: 13px; }
 .VPSidebarItem.level-1.is-active > .item { border-radius: 5px; background: var(--vp-c-brand-soft); }
 .VPSidebarItem.level-1 > .item { padding: 4px 8px; margin-left: -8px; }
+.VPDocFooter .pager:empty { display: none; }
+.VPDocFooter .pager-link,
+.VPDocFooter .pager-link.next { text-align: left; margin-left: 0; }
 .VPDocFooter .pager-link .title { line-height: 1.7; }
 .VPNavBarTitle .title { font-weight: 650; letter-spacing: -0.02em; }
+.VPNavBarTitle .logo { flex-shrink: 0; }
+.book-brand { display: flex; flex-direction: column; min-width: 0; }
+.book-brand-title { line-height: 1.4; }
+.book-brand-subtitle {
+  margin-top: 3px;
+  color: var(--vp-c-text-2);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: 0;
+  white-space: normal;
+}
+.VPDocOutlineItem .outline-link {
+  padding: 5px 0;
+  line-height: 1.65;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  overflow-wrap: anywhere;
+}
 @media (max-width: 767px) {
+  .VPNavBar .container > .title { max-width: calc(100% - 88px); flex-shrink: 1; }
   .vp-doc { font-size: 16px; }
   .vp-doc h1 { font-size: 26px; }
   .vp-doc h2 { font-size: 21px; margin-top: 40px; }

@@ -43,7 +43,7 @@ export async function loadBook(root) {
 
 export function sidebarFor(book) {
   return [
-    { text: '开始阅读', items: [{ text: '序言 · 毕业之后，还要重新学习什么', link: '/' }] },
+    { text: '序言', items: [{ text: '序言 · 毕业之后，还要重新学习什么', link: '/' }] },
     ...book.parts.map(part => ({
       text: part.text,
       collapsed: false,

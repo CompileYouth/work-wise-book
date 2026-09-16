@@ -6,7 +6,7 @@ const base = '/work-wise-book/'
 
 export default defineConfig({
   title: '专业之外：从学生到职业人的 21 堂成长课',
-  description: '《专业之外：从学生到职业人的 21 堂成长课》，面向工作 0—5 年的职场人。看懂职场，把事做成，与人合作，管理自己，持续成长。',
+  description: '《专业之外：从学生到职业人的 21 堂成长课》，面向工作 0—5 年的职场人。看懂职场，把事做成，与人合作，自我管理，持续成长。',
   lang: 'zh-CN',
   base,
   srcDir: './content',
@@ -20,8 +20,8 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: { src: '/favicon.svg', alt: '' },
-    siteTitle: '专业之外',
-    nav: [{ text: '从头阅读', link: '/' }],
+    siteTitle: false,
+    nav: [{ text: '序言', link: '/' }],
     sidebar,
     outline: { level: [2, 3], label: '本章目录' },
     docFooter: { prev: '上一章', next: '下一章' },
